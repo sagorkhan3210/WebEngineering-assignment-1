@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: .57cm;
+}
+
+a{
+    color:  rgb(92, 59, 84);
+    text-decoration: none;
+}
+
+h1,h2,h3 {
+ padding-bottom: 20px;  
+}
+
+p{
+    margin: 10px 0;
+}
+
+#navbar {
+    background:  rgb(92, 59, 84);
+    color: #fff;
+    overflow: auto;
+
+}
+
+#navbar a {
+
+    color: #fff
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+
+    background: rgb(92, 59, 84);
+    color: rgb(248, 244, 4);
+}
+
+#sk {
+    padding: 200px;
+}
+
+/* Home */
+#home-info{
+    padding-top: 20px;
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    align-content: center;
+  text-align:end;
+
+}
+
+#home-info .info-content{
+
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    padding: 50px 30px;
+    overflow: hidden;
+    
+}
+
+#home-info .info-content h1{
+
+    color: blue;
+}
+
+
+
+/* About Me */
+
+#about-info .address{
+
+    padding-left: 30px;
+}
+
+#about-info{
+
+    padding: 300px;
+}
